@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.tick text {
+  fill: #635F5D;
+  cursor: default;
+}
+
+/* .mark {
+  fill: #137B80 
+} */
+
+.axis-label, .dropdown-label{
+  font-size: 2.5em;
+  fill: #635F5D;
+  color: #635F5D;
+}
+
+.dropdown-label{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+label, select {
+  font-size: 2em;
+}
+select option {
+  font-size: 1rem;
+}
+
+.Dropdown-root{
+  width: 300px;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.Dropdown-menu {
+  max-height: 500px;
+}
+
+.menus-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
